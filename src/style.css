@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: greenyellow;
+}
+
+.card {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  height: 500px;
+  position: relative;
+  .topSym {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 80px;
+  }
+  .bottomSym {
+    transform: scaleY(-1);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 80px;
+  }
+}
+button {
+  margin-top: 20px;
+}
+.num {
+  font-size: 120px;
+}
+.bottomSym,
+.topSym {
+  color: rgb(0, 0, 0);
+}
